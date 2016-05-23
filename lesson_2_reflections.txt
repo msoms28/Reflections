@@ -8,6 +8,12 @@ project.
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 
+The staging area is a cached set of files that would be taken when you run the
+commit.  It adds value of being able to control what is being committed into the
+repo and can be changed before committing.  The working directory and repo are
+set file directories.  They will keep your items saved but do not provide the
+flexibility of the staging area.
+
 How can you use the staging area to make sure you have one commit per logical
 change?
 

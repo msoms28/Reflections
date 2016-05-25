@@ -17,10 +17,23 @@ flexibility of the staging area.
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+Even though you have made multiple changes in your code, you can still take one
+change at a time and commit it into the repo.  You can repeat the process until
+the repo is up to date with commits you wanted from the working directory.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+Branches will help when you want to try something experimental with your project
+or if you wanted to have a clean version to show or update if the web server
+crashes.
+
 How do the diagrams help you visualize the branch structure?
+
+The diagrams help me visualize what is the master and what is a branch off of the
+main.  It can also help you visualize if there is a head that is detached.  The
+diagram can be very helpful if you are in a large collaborative group trying to
+see where certain versions of the files are located.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?

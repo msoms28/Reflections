@@ -38,5 +38,17 @@ see where certain versions of the files are located.
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+The result of merging the two branches is merging in all of the commits into the
+master branch.  They will be arranged by date in the new master branch.  We
+represent it that way in the diagram because those commits are still specific to
+that merged branch and can be traced back in the same logic fashion as the
+diagram.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+Pros of Git's inability to automatically merge branches is that it will not create
+fatal errors within the new branch.  It will stop you and make you edit the errors
+before moving forward.  A con of this is that it could be tidious and time
+consuming to go through and find everything that conflicts with one another.  A
+great solution to that by Git is that it will mark where the conflicts occur.
